@@ -21,5 +21,5 @@ export default async function middleware(req: NextApiRequest, res: NextApiRespon
   }
 }
 export const config = {
-  //   matcher: ['/api/auth/profile'],
+  matcher: ['/api/auth/user'],
 };
